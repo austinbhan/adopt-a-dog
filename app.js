@@ -1,6 +1,8 @@
 import { getDogs } from './fetch-utils.js';
 import { renderDogCard } from './render-utils.js';
 
+const dogDetailContainer = document.getElementById('dog-detail-container'); // Will I need this later??
+
 // on load
 
 async function loadDogs() {
